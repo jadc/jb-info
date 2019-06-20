@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Open Sans", "Calibri", sans-serif;
+}
+
+body {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAy0lEQVQ4T4WTOw7CMBBEfRqoEFQkogHRIJQyos4FuH8Lmkizet7YUIz8We/z2mOX57R8pNt9Dnlufr1XeUw5VnLyeHlUasU8DoAD5+EaImS3P6xizJCogMlZStZuGa7cYpoCx9MQi9xX6/IJrY5AgBaqtQjkOCrwHZiqcglowboAQ1qJbrPdhefr7UypQtpa6MCvRN6NK9kAaNu/e4gj8IHQnl4yK4g76B2hZ2EF4FP2s23tmC0MG1Vu/iiC5P/BTTYAfln26bfBnJO+x3u6Vo15G8sAAAAASUVORK5CYII=);
+  background-size: 32px;
+  image-rendering: pixelated;
+}
+
+header {
+  margin: 0.5em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.33);
+  margin: 2em 10em;
+  padding: 1em 2.5em 1em 2.5em;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: circle outside url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjUlEQVQ4y2NgGPQgZcKE/xRp7liy5H9odvZ/sjXfevSIPENABuw8efL/3/8rwDTRBoA0wmw/fe0a2AAQDXMFXoNgGkE2gjQhGwDCIHGc3kH2M0gTDF+6xPD/waNyOJ8oQ2AuANEgzSAappFggML8iRwGyLYSHZgghbBYICsakV1BdmKCGUKWZmRDaJrZAFy16kfYt0HIAAAAAElFTkSuQmCC);
+}
